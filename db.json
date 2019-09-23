@@ -1,11 +1,21 @@
 {
-  "test": [
-    {
-      "id": 1,
-      "title": "hello"
-    }
-  ],
   "test2": {
-    "name": "typicode"
+    <?xml version="1.0" encoding="UTF-8" ?>
+<gateway>
+    <errorMsg></errorMsg>
+    <settlements>
+        <settlement>
+            <AuthorizationID>59081604</AuthorizationID>
+            <merchantID>MAHACH</merchantID>
+            <settleDate>09/13/2019</settleDate>
+            <uniqueTranID>52-OC-12092019013510-1</uniqueTranID>
+            <routing>021000021</routing>
+            <accountNumber>1234567890123452</accountNumber>
+            <checkNumber></checkNumber>
+            <name>Roma Doe</name>
+            <amount>2400.00</amount>
+        </settlement>
+    </settlements>
+</gateway>
   }
 }
